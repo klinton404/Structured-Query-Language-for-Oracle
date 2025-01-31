@@ -1,0 +1,2 @@
+select Feature, Section, Page from NEWSPAPER
+ where Feature LIKE 'Mo%';
