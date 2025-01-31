@@ -1,0 +1,5 @@
+create table NEWSPAPER (
+ Feature      VARCHAR2(15) not null,
+ Section      CHAR(1),
+ Page         NUMBER
+ );
