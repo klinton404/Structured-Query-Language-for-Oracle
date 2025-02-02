@@ -1,0 +1,3 @@
+select Feature, Section, Page
+ from NEWSPAPER
+ where Page BETWEEN 7 and 10;
