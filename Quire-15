@@ -1,0 +1,5 @@
+select Feature, Section, Page
+ from NEWSPAPER
+ where Section = 'A'
+ or (Section = 'B'
+ and Page > 2);
