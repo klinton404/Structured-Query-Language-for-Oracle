@@ -1,0 +1,3 @@
+select * from NEWSPAPER
+ where Section < (select Section from NEWSPAPER
+ where Feature = 'Doctor Is In');
