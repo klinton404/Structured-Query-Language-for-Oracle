@@ -1,0 +1,6 @@
+create table WEATHER (
+City         VARCHAR2(11),
+Temperature  NUMBER,
+Humidity     NUMBER,
+Condition    VARCHAR2(9)
+);
