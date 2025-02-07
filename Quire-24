@@ -1,0 +1,2 @@
+select City, Country from LOCATION
+ where City IN ('PARIS', 'SPARTA');
