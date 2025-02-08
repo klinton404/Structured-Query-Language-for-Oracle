@@ -1,0 +1,4 @@
+ select WEATHER.City, Condition, Temperature, Latitude,
+ NorthSouth, Longitude, EastWest
+ from WEATHER, LOCATION
+ where WEATHER.City = LOCATION.City;
