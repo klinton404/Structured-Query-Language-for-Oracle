@@ -1,0 +1,3 @@
+select City, Country from LOCATION
+ where City IN (select City from WEATHER
+ where Condition = 'CLOUDY');
