@@ -1,0 +1,2 @@
+create profile LIMITED_PROFILE limit 
+ FAILED_LOGIN_ATTEMPTS 5;
