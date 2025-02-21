@@ -1,0 +1,2 @@
+create user JANE2 identified by EYRE
+profile LIMITED_PROFILE;
