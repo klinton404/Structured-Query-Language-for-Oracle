@@ -1,0 +1,5 @@
+create user Judy identified by sarah;
+grant CREATE SESSION to Judy;
+
+ grant CREATE SESSION, CREATE TABLE, CREATE VIEW,     
+ CREATE SYNONYM to Judy;
