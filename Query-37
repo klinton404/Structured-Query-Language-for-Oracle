@@ -1,0 +1,7 @@
+alter profile LIMITED_PROFILE limit    
+FAILED_LOGIN_ATTEMPTS 3                  
+PASSWORD_LIFE_TIME 30                    
+PASSWORD_REUSE_TIME 90                   
+PASSWORD_REUSE_MAX 5               
+PASSWORD_LOCK_TIME 1                     
+PASSWORD_GRACE_TIME 7;               
